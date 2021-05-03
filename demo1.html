@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo</title>
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="cont-wrap"> 
+    <ul class="nav-list">
+      <li class="on"><a href="">首页</a></li>
+      <li><a href="">首页1</a></li>
+      <li><a href="">首页2</a></li>
+      <li><a href="">首页3</a></li>
+    </ul>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide red-slide">
+          <div class="title">Slide 1</div>
+        </div>
+        <div class="swiper-slide blue-slide">
+          <div class="title">Slide 2</div>
+        </div>
+        <div class="swiper-slide orange-slide">
+          <div class="title">Slide 3</div>
+        </div>
+        <div class="swiper-slide green-slide">
+          <div class="title">Slide 4</div>
+        </div>
+      </div>
+      <div class="pagination"></div>
+    </div>
+    <div class="picShow wrapper">
+      <div class=" clearfix">
+        <div class="lcont fl">
+          <img src="" width="440" height="360">
+        </div>
+        <div class="rcont fr">
+          <img class="pic2" src="" width="540" height="180">
+          <img src="" width="540" height="160">
+        </div>
+      </div>
+      <div class="footText clearfix">
+        <ul class="aboutUs fl">
+          <li><a href="">关于我们</a></li>
+          <li><a href="">关于我们</a></li>
+          <li><a href="">关于我们</a></li>
+        </ul>
+        <p class="fr">大喊大叫的地方</p>
+      </div>
+    </div> 
+  </div>
+  
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="js/idangerous.swiper.min.js"></script>
+  <script>
+  var mySwiper = new Swiper('.swiper-container',{
+    loop : true,
+    autoplay : 5000,
+    pagination: '.pagination',
+    paginationClickable: true
+  })
+  </script>
+</body>
+</html>

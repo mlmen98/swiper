@@ -1,0 +1,158 @@
+body, h1, h2, li, ul,article,aside,nav, div,span, p, footer, input, span, button,dl,dd,dt,section,header {
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+    outline: none;
+}
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  position: relative;
+  height: 100%;
+}
+ul{ list-style:none;}
+img{
+    border: none;
+}
+a{
+  text-decoration: none;
+}
+/*去除苹果浏览器按钮默认ui处理*/
+input[type="text"],
+input[type="submit"],
+ input[type="reset"],
+ input[type="button"],
+ button {
+ -webkit-appearance: none;
+ outline: none;
+ }
+.clearfix:after{ content:"."; display:block; height:0; clear:both; overflow:hidden;}
+.clearfix{ zoom:1;}
+.fl{ float: left; }
+.fr{float: right;}
+
+
+.swiper-container {
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  text-align: center;
+}
+.red-slide {
+  background: #ca4040;
+}
+.blue-slide {
+  background: #4390ee;
+}
+.orange-slide {
+  background: #ff8604;
+}
+.green-slide {
+  background: #49a430;
+}
+.pink-slide {
+  background: #973e76;
+}
+.swiper-slide .title {
+  font-style: italic;
+  font-size: 42px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  line-height: 45px;
+}
+.pagination {
+  position: absolute;
+  z-index: 20;
+  left: 10px;
+  bottom: 10px;
+}
+.swiper-pagination-switch {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #222;
+  margin-right: 5px;
+  opacity: 0.8;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.swiper-visible-switch {
+  background: #aaa;
+}
+.swiper-active-switch {
+  background: #fff;
+}
+
+
+.cont-wrap{
+  position: relative;
+  width: 100%;
+  /*height: 100%;*/
+}
+.nav-list{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  overflow: hidden;
+  z-index: 9999999;
+}
+.nav-list li{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 0 5px;
+  margin-right: 10px;  
+}
+.nav-list li a{
+  color: #fff;
+  display: block;
+
+}
+.nav-list li.on{
+  border-bottom: 1px solid #f00;
+}
+.nav-list li:hover{
+  border-bottom: 1px solid #f00;
+}
+.lcont{
+  margin-right: 20px;
+}
+.pic2{
+  margin-bottom: 20px;
+}
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+.lcont img,.rcont img{
+  display: block;
+}
+.picShow{
+  position: absolute;
+  bottom: -260px;
+  left:50%;
+  margin-left: -500px;
+  z-index: 99999;
+}
+
+.footText{
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  line-height: 50px;
+  color: #666;
+}
+.aboutUs li{
+  float: left;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.aboutUs li a{
+  color: #666;
+}
